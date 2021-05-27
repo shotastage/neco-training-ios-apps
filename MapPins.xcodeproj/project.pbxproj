@@ -15,6 +15,8 @@
 		59189946265FA35600E2EBE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59189944265FA35600E2EBE4 /* LaunchScreen.storyboard */; };
 		59189951265FA35600E2EBE4 /* MapPinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59189950265FA35600E2EBE4 /* MapPinsTests.swift */; };
 		5918995C265FA35600E2EBE4 /* MapPinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5918995B265FA35600E2EBE4 /* MapPinsUITests.swift */; };
+		5918996A265FA37400E2EBE4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59189969265FA37400E2EBE4 /* MapView.swift */; };
+		5918996C265FA38500E2EBE4 /* TextFieldAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5918996B265FA38500E2EBE4 /* TextFieldAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		59189957265FA35600E2EBE4 /* MapPinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapPinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5918995B265FA35600E2EBE4 /* MapPinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPinsUITests.swift; sourceTree = "<group>"; };
 		5918995D265FA35600E2EBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59189969265FA37400E2EBE4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5918996B265FA38500E2EBE4 /* TextFieldAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				59189944265FA35600E2EBE4 /* LaunchScreen.storyboard */,
 				59189947265FA35600E2EBE4 /* Info.plist */,
 				59189941265FA35600E2EBE4 /* Preview Content */,
+				59189969265FA37400E2EBE4 /* MapView.swift */,
+				5918996B265FA38500E2EBE4 /* TextFieldAlert.swift */,
 			);
 			path = MapPins;
 			sourceTree = "<group>";
@@ -266,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5918996C265FA38500E2EBE4 /* TextFieldAlert.swift in Sources */,
 				5918993A265FA35500E2EBE4 /* AppDelegate.swift in Sources */,
+				5918996A265FA37400E2EBE4 /* MapView.swift in Sources */,
 				5918993C265FA35500E2EBE4 /* SceneDelegate.swift in Sources */,
 				5918993E265FA35500E2EBE4 /* ContentView.swift in Sources */,
 			);
